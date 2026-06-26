@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ChiPi Technologies - Student Registration</title>
+</head>
+<body>
+    <h2>ChiPi Technologies - Student Registration</h2>
+    <form>
+        <fieldset>
+            <legend>Personal Details</legend>
+            <label for="fullName">Full Name:</label><br>
+            <input type="text" id="fullName" name="fullName" required>
+            <br><br>
+            <label for="dob">Date of Birth:</label><br>
+            <input type="date" id="dob" name="dob">
+            <br><br>
+            <label for="gender">Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="Male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="Female">
+            <label for="female">Female</label><br>
+            <input type="radio" id="other" name="gender" value="Other">
+            <label for="other">Other</label>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Course Details</legend>
+            <label for="course">Course Name:</label><br>
+            <select id="course" name="course">
+                <option>Java Full Stack</option>
+                <option>Python Full Stack</option>
+                <option>MERN Stack</option>
+                <option>Data Science</option>
+            </select>
+            <br><br>
+            <label for="batch">Preferred Batch Timing:</label><br>
+            <input type="text" id="batch" name="batch"
+                   placeholder="e.g. Weekend Morning">
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Contact Info</legend>
+            <label for="email">Email Address:</label><br>
+            <input type="email" id="email" name="email">
+            <br><br>
+            <label for="mobile">Mobile Number:</label><br>
+            <input type="tel" id="mobile" name="mobile">
+        </fieldset>
+        <br>
+        <input type="submit" value="Register">
+        <input type="reset" value="Clear Form">
+    </form>
+    <footer>
+        <p>&copy; 2025 ChiPi Technologies. All rights reserved.</p>
+    </footer>
+</body>
+</html>
